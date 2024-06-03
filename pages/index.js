@@ -1091,6 +1091,17 @@ export default function Home({ sendDataToParent }) {
                       alt="FlowBite Logo"
                     />
    */
+
+  /*1205          <div>
+                    <span className="text-[#bab6bc] font-normal text-sm">
+                      From
+                    </span>
+                    <div className="text-[#ebefe9] flex gap-4 cursor-pointer">
+                      <p>{topname}</p>
+                      <BiSolidDownArrow className="text-xs" />
+                    </div>
+                  </div>
+                </div>*/
   return (
     <>
       <header>
@@ -1202,16 +1213,7 @@ export default function Home({ sendDataToParent }) {
             <div className="bg-[#353037] rounded-lg p-3 border ">
               <div className="flex justify-between items-center">
                 <div className="flex items-center gap-4">
-                  <div>
-                    <span className="text-[#bab6bc] font-normal text-sm">
-                      From
-                    </span>
-                    <div className="text-[#ebefe9] flex gap-4 cursor-pointer">
-                      <p>{topname}</p>
-                      <BiSolidDownArrow className="text-xs" />
-                    </div>
-                  </div>
-                </div>
+         
 
                 <div className="text-[#f0e9fc] text-base">
                   <ConnectButton />
@@ -1269,7 +1271,7 @@ export default function Home({ sendDataToParent }) {
               </button>
             </div>
 
-            <div className="bg-[#353037] rounded-lg p-3 my-5">
+  {/*   <div className="bg-[#353037] rounded-lg p-3 my-5">
               <div className="flex items-center gap-4">
                 <div>
                   <span className="text-[#bab6bc] font-normal text-sm">To</span>
@@ -1278,7 +1280,7 @@ export default function Home({ sendDataToParent }) {
                     <BiSolidDownArrow className="text-xs" />
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div className="border rounded p-2 border-[#4d484f] mt-5 flex gap-3">
                 <div className="w-32 rounded p-2 bg-[#565158] h-12 flex items-center gap-3 relative">
