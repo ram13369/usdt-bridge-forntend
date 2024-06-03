@@ -19,7 +19,7 @@ import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 const kbcfoundation = {
   id: 11000,
   name: "kbc",
-  iconUrl: "https://kbcfoundation.com/images/logo.png",
+  iconUrl: "https://kbcfoundation.com/images/logo2.png",
   iconBackground: "#fff",
   nativeCurrency: { name: "kbcfoundation", symbol: "KBC", decimals: 18 },
   rpcUrls: {
