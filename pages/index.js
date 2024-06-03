@@ -945,8 +945,8 @@ export default function Home({ sendDataToParent }) {
         : "0xF6E83df1a9659E9923E43A85aE6d8F07a2C95b61"
     ); */
     // Toggle between 'sai' and 'satya' based on the current state
-    settopName(topname === "BSC" ? "KDC" : "BSC");
-    setdownName(downname == "KDC" ? "BSC" : "KDC");
+    settopName(topname === "BSC" ? "KbC" : "BSC");
+    setdownName(downname == "KBC" ? "BSC" : "KBC");
   };
 
   const handleApprove = async () => {
